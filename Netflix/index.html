@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+    <!--linkando arquivos Owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>NETFLIX CLONE</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo" >NETFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="filme-principal" style="width: 100%">
+            <div class="container">
+               
+                <h3 class="titulo">Wanda e visão</h3>
+                <p class="descricao">A nova série da Marvel Studios "WandaVision" combina o estilo das comédias clássicas com o Universo Cinematográfico da Marvel para
+                     contar a história de Wanda Maximoff (Elizabeth Olsen) e Visão (Paul Bettany),
+                    um casal de super-heróis com uma vida perfeita, que começa a suspeitar que nem tudo é o que parece.
+                </p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i><!--botão de play-->
+                        ASSISTIR AGORA 
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES 
+                    </button>
+                </div>
+            </div> 
+        </div>
+    </main>
+    
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-filme" src="img/AnatomiaGrey.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/Coringa.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/theGoodDoctor.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/sabrina.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/MandaLorian.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="img/kong.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/f781109322.js" crossorigin="anonymous"></script> <!-- link externo-->
+    <!--Script js-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script><!-- Setando a aplicação Jquerey no projeto-->
+</body>
+</html>
